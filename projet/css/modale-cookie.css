@@ -1,0 +1,116 @@
+#titre {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#bouton {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+
+#modale {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+
+#modale .contenu {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 15;
+}
+
+#modale .contenu .bouton-fermer {
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width : 20px;
+    height: 20px;
+    background-color : red;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    position: relative;
+    top : 5px;
+    left: 275px;
+
+    cursor:crosshair;
+    user-select: none;
+
+
+}
+#modale .contenu .bouton-valider {
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width : 100px;
+    height: 20px;
+    background-color :chartreuse;
+    color: white;
+    font-weight: bold;
+    
+    position: relative;
+    top : 300px;
+    left: 100px;
+
+    cursor: crosshair;
+    user-select: none;
+
+
+}
+
+#modale .contenu .boutonfermer:hover{
+
+    background-color: darkred;
+
+
+
+
+
+
+
+}
+
+
+#bouton {
+    width: 100px; 
+    height: 30px; 
+    background-color: red; 
+    color: white;
+}
+#bouton2 {
+    width: 100px; 
+    height: 30px; 
+    background-color:blueviolet; 
+    color: white;
+}
+#bouton-jouer{
+    width: 200px;
+    height: 100px;
+    background-color: maroon;
+    color:aliceblue
+}
+#bouton-retour {
+    width: 100px;
+    height:30px;
+    background-color:crimson;
+    color:aliceblue
+}
+body{
+    background-image:url("../image/coliseugeek-cookie-clicker.webp");
+}

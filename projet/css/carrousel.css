@@ -1,0 +1,8 @@
+.contenu {
+    display: flex
+}
+
+#image {
+    padding: 10px;
+    width: 100px;
+}
